@@ -1,0 +1,10 @@
+{
+  "name": "comerciotech-root",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix CT_Backend\" \"npm run dev --prefix CT_FrontEnd -- --open\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
